@@ -203,55 +203,179 @@ padding:12px 26px;
 
 /* Mobile */
 
-@media(max-width:900px){
+
+@media(max-width:1000px){
 
 .navbar{
 
-padding:20px;
-
 flex-direction:column;
 
-gap:20px;
-
-}
-
-.logo h2{
-
-font-size:42px;
-
-}
-
-.logo p{
-
-font-size:16px;
-
-}
-
-.nav-links{
+padding:20px;
 
 gap:20px;
+
+}
+
+.navbar ul{
+
+display:flex;
 
 flex-wrap:wrap;
 
 justify-content:center;
 
+gap:15px;
+
 }
 
 .nav-links a{
 
-font-size:18px;
+font-size:16px;
+
+}
+
+.logo h2{
+
+font-size:34px;
+
+}
+
+.logo p{
+
+font-size:13px;
+
+text-align:center;
 
 }
 
 .btn{
 
+padding:12px 24px;
+
+font-size:15px;
+
+}
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+padding-top:160px;
+
+min-height:auto;
+
+}
+
+.left,.right{
+
+width:100%;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.hero p{
+
 font-size:18px;
 
-padding:14px 30px;
+}
+
+.right img{
+
+max-width:100%;
+
+margin-top:30px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.blue-btn,
+
+.white-btn{
+
+width:220px;
+
+text-align:center;
+
+}
+
+.about-company{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.mission{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
+.catalogue-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.product-item,
+
+.reverse{
+
+flex-direction:column;
+
+}
+
+.product-image img{
+
+height:260px;
+
+}
+
+.why-list{
+
+grid-template-columns:1fr;
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+.footer{
+
+text-align:center;
 
 }
 
 }
+
+
+
+
+
 
 /* ===========================
    HERO
@@ -2174,5 +2298,19 @@ font-size:18px;
 font-weight:500;
 
 letter-spacing:.5px;
+
+}
+
+
+
+
+
+.footer p{
+
+    margin:0;
+
+    color:white;
+
+    font-size:18px;
 
 }
